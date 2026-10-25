@@ -1,3 +1,13 @@
+# ============================================================================
+# DATA SOURCE CITATION
+# Dataset Name: Trending YouTube Video Statistics (US Region Archive)
+# Data Creator: Mitchell J. (Open Sourced via Kaggle Repositories)
+# Dataset License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+# Data Source URL: https://www.kaggle.com/datasets/datasnaek/youtube-new
+# Local Storage Source Path: data/USvideos.csv
+# ============================================================================
+
+
 import os
 import sqlite3
 import pandas as pd
