@@ -15,5 +15,4 @@ An automated, local data engine designed to ingest, normalize, and analyze high-
 1. **Relational Database Design:** Engineered a multi-table database blueprint modeling Artist, Video, Platform, and Fact-Metric relationships with absolute structural integrity.
 2. **Automated ETL Pipeline:** Developed an object-oriented Python script to ingest real-world high-density datasets (2,500+ records), drop rows with numeric parsing anomalies, and populate tracking targets cleanly.
 3. **Multi-Table Relational Queries:** Authored production-grade SQL optimization scripts leveraging multi-dimensional aggregations (`JOIN`, `GROUP BY`, composite tracking calculations) to isolate performance trends.
-![System Database Layout Blueprint](database_architecture.png)
-  
+![System Database Layout Blueprint](erd_blueprint.png)
