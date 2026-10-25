@@ -1,7 +1,8 @@
 CREATE TABLE IF NOT EXISTS Dim_Artists (
     artist_id INTEGER PRIMARY KEY AUTOINCREMENT,
     artist_name TEXT UNIQUE NOT NULL,
-    primary_genre TEXT DEFAULT 'Music'
+    primary_genre TEXT DEFAULT 'Music',
+    spotify_popularity INTEGER DEFAULT 0 
 );
 
 CREATE TABLE IF NOT EXISTS Dim_Videos (
